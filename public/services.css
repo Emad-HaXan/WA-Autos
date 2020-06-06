@@ -1,0 +1,76 @@
+.service
+{
+    width: 70%;
+    margin: 50px auto 10px auto;
+}
+
+.card h5
+{
+    font-size: 1.25em;
+    text-align: center;
+    color: darkred !important;
+    font-weight: bold !important;
+}
+
+@media screen and (max-width: 800px)
+{
+    .service
+    {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .card h5 
+    {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .card h5 
+    {
+        font-size: 1em;
+    }
+
+    .service
+    {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .service
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    .service
+    {
+        width: 60%;
+    }
+
+    .card h5 
+    {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .service
+    {
+        width: 80%;
+    }
+
+    .card h5 
+    {
+        font-size: 1.1em;
+    }
+}

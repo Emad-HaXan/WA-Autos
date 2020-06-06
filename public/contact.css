@@ -1,0 +1,152 @@
+.contact
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.map h2, .contact h2
+{
+    color: whitesmoke !important;
+    font-size: 2.5em;
+}
+
+.address p
+{
+    color: rgb(160, 160, 160);
+}
+
+.fa-map-marker-alt
+{
+    color: forestgreen;
+    margin-right: 5px;
+}
+
+.fa-user
+{
+    color: darkkhaki;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.fa-mobile-alt
+{
+    color: darkred;
+    margin-right: 7px;
+    text-align: center;
+}
+
+.form
+{
+    border: 3px solid darkkhaki;
+    padding: 10px 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+form label
+{
+    color: darkkhaki !important;
+}
+
+input[type=text],input[type=email],input[type=tel]
+{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.form button
+{
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: darkred;
+    color: darkkhaki;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.address
+{
+    padding: 10px 10px;
+}
+
+.map
+{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.map iframe
+{
+    margin: 5px auto;
+}
+
+@media screen and (max-width: 880px)
+{
+    .contact
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form, .address
+    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 660px)
+{
+    .form, .address
+    {
+        width: 75%;
+    }
+
+    .map iframe
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+    .form, .address
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .address iframe
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    .map h2, .contact h2
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .form, .address, .map iframe 
+    {
+        width:95%;
+    }
+}
